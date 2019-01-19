@@ -1,0 +1,104 @@
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad MK.csprojResolveAssemblyReference.cache
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\App.g.cs
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad MK.g.resources
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad MK.csproj.GenerateResource.Cache
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WowPad MK.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WowPad MK.pdb
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ja\WowPad MK.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ko\WowPad MK.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\AppManifest.xaml
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WowPad_MK_Debug_AnyCPU.xap
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WowCommon.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\AdDuplex.WindowsPhone.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Advertising.Mobile.UI.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Advertising.Mobile.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WowCommon.pdb
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Advertising.Mobile.xml
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\ja\WowPad MK.resources.dll
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\ko\WowPad MK.resources.dll
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad MK.dll
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad MK.pdb
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\XapCacheFile.xml
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\da-DK\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\de-DE\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\el-GR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\en-GB\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\es-ES\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\it-IT\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Properties\WMAppManifest.xml
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\Microsoft.Phone.Controls.pdb
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad.Resources.AppResources.resources
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad.Resources.AppResources.ja.resources
+D:\Project\C#\WowPad\WowPad MK\obj\Debug\WowPad.Resources.AppResources.ko.resources

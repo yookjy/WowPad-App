@@ -1,0 +1,4 @@
+D:\Project\C#\WowPad\TypeForwarding\Bin\x86\Debug\Microsoft.Phone.Controls.dll
+D:\Project\C#\WowPad\TypeForwarding\Bin\x86\Debug\Microsoft.Phone.Controls.pdb
+D:\Project\C#\WowPad\TypeForwarding\obj\x86\Debug\Microsoft.Phone.Controls.dll
+D:\Project\C#\WowPad\TypeForwarding\obj\x86\Debug\Microsoft.Phone.Controls.pdb

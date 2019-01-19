@@ -1,0 +1,76 @@
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WowPad ATK.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WowPad ATK.pdb
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ja\WowPad ATK.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ko\WowPad ATK.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\AppManifest.xaml
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WowPad.WP7.ATK.xap
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WowCommon.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Phone.Controls.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WriteableBitmapExWinPhone.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Advertising.Mobile.UI.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\AdDuplex.WindowsPhone.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Advertising.Mobile.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Phone.Controls.Maps.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WowCommon.pdb
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Phone.Controls.xml
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WriteableBitmapExWinPhone.pdb
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\WriteableBitmapExWinPhone.xml
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Advertising.Mobile.UI.xml
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Advertising.Mobile.xml
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\Microsoft.Phone.Controls.Maps.xml
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\cs-CZ\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\da-DK\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\de-DE\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\el-GR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\en-GB\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\es-ES\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\fi-FI\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\fr-FR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\hu-HU\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\it-IT\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ja-JP\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ko-KR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\nb-NO\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\nl-NL\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\pl-PL\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\pt-BR\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\pt-PT\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\ru-RU\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\sv-SE\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\zh-CN\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\Bin\Release\zh-TW\Microsoft.Advertising.Mobile.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad.WP7.ATK.csprojResolveAssemblyReference.cache
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\App.g.cs
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad ATK.g.resources
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad.Resources.AppResources.resources
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad.Resources.AppResources.ja.resources
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad.Resources.AppResources.ko.resources
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad.WP7.ATK.csproj.GenerateResource.Cache
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\ja\WowPad ATK.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\ko\WowPad ATK.resources.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad ATK.dll
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\WowPad ATK.pdb
+D:\Project\C#\WowPad\WowPad.WP7.ATK\obj\Release\XapCacheFile.xml

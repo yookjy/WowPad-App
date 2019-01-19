@@ -1,0 +1,4 @@
+D:\Project\C#\WowPad\TypeForwarding\Bin\ARM\Release\Microsoft.Phone.Controls.dll
+D:\Project\C#\WowPad\TypeForwarding\Bin\ARM\Release\Microsoft.Phone.Controls.pdb
+D:\Project\C#\WowPad\TypeForwarding\obj\ARM\Release\Microsoft.Phone.Controls.dll
+D:\Project\C#\WowPad\TypeForwarding\obj\ARM\Release\Microsoft.Phone.Controls.pdb

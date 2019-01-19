@@ -1,0 +1,71 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Apps.WowPad.UI.Pages.WolSdbPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Apps.UI;assembly=WowCommon"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit" 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape" Orientation="Landscape"
+    mc:Ignorable="d"
+    toolkit:TiltEffect.IsTiltEnabled="True"
+    shell:SystemTray.IsVisible="True">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:SwivelTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:SwivelTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    
+    <!--LayoutRoot는 모든 페이지 내용이 배치되는 루트 표입니다.-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel에는 응용 프로그램 이름 및 페이지 제목이 포함됩니다.-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="txtAppName" Style="{StaticResource PhoneTextNormalStyle}" FontSize="22"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.WOLPageTitle, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+        
+        <!--ContentPanel - 여기에 추가 내용을 배치합니다.-->
+        <StackPanel Grid.Row="1" Margin="12,0,12,28">
+            <TextBlock x:Name="subnetLabel" Margin="12,0,24,0" FontSize="21">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="#FF979797"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="subnetTxtBox" MaxLength="15" Grid.Row="1" Grid.Column="0" Text="" BorderThickness="3" TextChanged="subnetTxtBox_TextChanged" InputScope="Digits"/>
+                <Button x:Name="wolBtn" Grid.Row="1" Grid.Column="1" Content="{Binding Path=LocalizedResources.WOLPageRequestButton, Source={StaticResource LocalizedStrings}}" Tap="connectServerBtn_Tap" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBarButtonTextConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="AppBarButtonTextDelete" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="AppBarButtonTextDisconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="AppBarButtonTextMouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="AppBarButtonTextPower" xml:space="preserve">
+    <value>Wake On Lan</value>
+  </data>
+  <data name="AppBarButtonTextSearchPC" xml:space="preserve">
+    <value>PC Search</value>
+  </data>
+  <data name="AppBarButtonTextSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="AppBarButtonTextTouchScreen" xml:space="preserve">
+    <value>Touch Screen</value>
+  </data>
+  <data name="AppBarMenuTextEmail" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="AppBarMenuTextHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="AppBarMenuTextRateNReview" xml:space="preserve">
+    <value>Rate &amp; Review</value>
+  </data>
+  <data name="AppFullName" xml:space="preserve">
+    <value>Velostep WowPad</value>
+  </data>
+  <data name="AppMessageAccessCodeIncorrect" xml:space="preserve">
+    <value>Access code is incorrect. Please try again.</value>
+  </data>
+  <data name="AppMessageBuyMKVersion" xml:space="preserve">
+    <value>Buy the MK version</value>
+  </data>
+  <data name="AppMessageBuyTKVersion" xml:space="preserve">
+    <value>Buy the TK version</value>
+  </data>
+  <data name="AppMessageCellularChargeInfomation" xml:space="preserve">
+    <value>If you use a cellular data connection charges may occur. WiFi is recommended.</value>
+  </data>
+  <data name="AppMessageConfirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="AppMessageDisconnectedFromPC" xml:space="preserve">
+    <value>Connection has been lost.
+Are you sure you want to rescan your PC?</value>
+  </data>
+  <data name="AppMessageExit" xml:space="preserve">
+    <value>Press 'back' one more time to exit WowPad.</value>
+  </data>
+  <data name="AppMessageLoading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="AppMessageNotAbleConnectPC" xml:space="preserve">
+    <value>You will not be able to connect to the PC.
+PC search again.</value>
+  </data>
+  <data name="AppMessageNotFoundHost" xml:space="preserve">
+    <value>Can not be found host.</value>
+  </data>
+  <data name="AppMessageNotification" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="AppMessageRequiredDataNetwork" xml:space="preserve">
+    <value>Cellular data connection or WiFi network is required. WiFi settings would you like to do?</value>
+  </data>
+  <data name="AppMessageRequiredWiFi" xml:space="preserve">
+    <value>WiFi settings are required. Do you want to set?</value>
+  </data>
+  <data name="AppMessageTrialBuyFullversion" xml:space="preserve">
+    <value>Buy the full version</value>
+  </data>
+  <data name="AppMessageTrialBuyInfo" xml:space="preserve">
+    <value>Buy the full version to use all the features.</value>
+  </data>
+  <data name="AppMessageTrialCannotuse" xml:space="preserve">
+    <value>Not available in the trial version.</value>
+  </data>
+  <data name="AppMessageTrialTouchScreenColor" xml:space="preserve">
+    <value>PC screen is displayed in black and white in the trial version. Displayed in color in the full version.</value>
+  </data>
+  <data name="AppMessageUnreachableHost" xml:space="preserve">
+    <value>Destination host unreachable.</value>
+  </data>
+  <data name="AppMessageUsage" xml:space="preserve">
+    <value>{0} cellular data was used.</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>WowPad</value>
+  </data>
+  <data name="HelpPageLoadFail" xml:space="preserve">
+    <value>You do not have an Internet connection or page can not be found.</value>
+  </data>
+  <data name="HelpPageTitle" xml:space="preserve">
+    <value>How to use WowPad</value>
+  </data>
+  <data name="HistoryListPageTitle" xml:space="preserve">
+    <value>Histories</value>
+  </data>
+  <data name="HistoryPageRemoveItem" xml:space="preserve">
+    <value>Are you sure you want to delete access history of {0}?</value>
+  </data>
+  <data name="HistoryPageWOLCannotRequest" xml:space="preserve">
+    <value>Because it is a network that is not accessible, you will not be able to use the WOL.</value>
+  </data>
+  <data name="HistoryPageWOLConfirm" xml:space="preserve">
+    <value>Wake ON Lan to use the PC CMOS settings to be enabled. 
+For more information about set, 
+please contact PC manufacturer. 
+PC turn on request?</value>
+  </data>
+  <data name="HistoryPageWOLRequest" xml:space="preserve">
+    <value>Power on request. 
+Please check with your PC.</value>
+  </data>
+  <data name="MainPageConnected" xml:space="preserve">
+    <value>Connected...</value>
+  </data>
+  <data name="MainPageDisconnected" xml:space="preserve">
+    <value>Disconnected...</value>
+  </data>
+  <data name="MainPageMouseBackClick" xml:space="preserve">
+    <value>Back (only web browser)</value>
+  </data>
+  <data name="MainPageMouseForwardClick" xml:space="preserve">
+    <value>Forward (only web browser)</value>
+  </data>
+  <data name="MainPageMouseLeftClick" xml:space="preserve">
+    <value>Click left button</value>
+  </data>
+  <data name="MainPageMouseMovePointer" xml:space="preserve">
+    <value>Move mouse</value>
+  </data>
+  <data name="MainPageMouseRightClick" xml:space="preserve">
+    <value>Click right button</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>en</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ServerConnectPageAccessCode" xml:space="preserve">
+    <value>Access code</value>
+  </data>
+  <data name="ServerConnectPageConnecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="ServerConnectPageConnectPC" xml:space="preserve">
+    <value>Connect PC</value>
+  </data>
+  <data name="ServerListPageHost" xml:space="preserve">
+    <value>Host name or IP address</value>
+  </data>
+  <data name="ServerListPagePort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="ServerListPageSearching" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="ServerListPageSearchPC" xml:space="preserve">
+    <value>Search PC</value>
+  </data>
+  <data name="ServerListPageTitle" xml:space="preserve">
+    <value>Search PC</value>
+  </data>
+  <data name="SettingsPagePivotConnectionAutoConnect" xml:space="preserve">
+    <value>Use auto connect on start up</value>
+  </data>
+  <data name="SettingsPagePivotConnectionDefaultPort" xml:space="preserve">
+    <value>Default port (default : 9000, range : 1024 ~ 65535)</value>
+  </data>
+  <data name="SettingsPagePivotConnectionDeviceType" xml:space="preserve">
+    <value>Device type on start up</value>
+  </data>
+  <data name="SettingsPagePivotConnectionTitle" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsage" xml:space="preserve">
+    <value>Data usage notification (If cellular data connection)</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel1" xml:space="preserve">
+    <value>per 50MB</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel2" xml:space="preserve">
+    <value>per 100MB</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel3" xml:space="preserve">
+    <value>per 250MB</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel4" xml:space="preserve">
+    <value>per 500MB</value>
+  </data>
+  <data name="SettingsPagePivotEtcDefaultPage" xml:space="preserve">
+    <value>Default page of Search PC</value>
+  </data>
+  <data name="SettingsPagePivotEtcTitle" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQuality" xml:space="preserve">
+    <value>Background screen qualtiy</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQualityHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQualityLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQualityMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadNavigationButton" xml:space="preserve">
+    <value>Use navigation button on browser</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadTitle" xml:space="preserve">
+    <value>TouchPad</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>WowPad Settings</value>
+  </data>
+  <data name="WOLPageRequestButton" xml:space="preserve">
+    <value>Wake</value>
+  </data>
+  <data name="WOLPageSubnetMask" xml:space="preserve">
+    <value>Subnet Mask of {0}</value>
+  </data>
+  <data name="WOLPageTitle" xml:space="preserve">
+    <value>Wake on WAN</value>
+  </data>
+  <data name="SettingsPagePivotEtcFullSizeKeyboard" xml:space="preserve">
+    <value>Use large keyboard</value>
+  </data>
+</root>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{590871a5-543a-432a-9476-03998b2de46b}" Title="WowPad AMK" RuntimeType="Silverlight" Version="2.7.0.0" Genre="apps.normal" Author="Velostep Inc." Description="WiFi Mouse &amp; Keyboard&#xD;&#xA;Windows7, 8 Edge gestures" Publisher="Velostep Inc.">
+    <IconPath IsRelative="true" IsResource="false">app_icon_128.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MEDIALIB" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="WowCommon;component/Apps/WowPad/UI/Pages/MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="WowPad.WP7.AMKToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">app_icon_256.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>WowPad AMK</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
+<!-- WPSDK Version 7.1.8773.0 -->

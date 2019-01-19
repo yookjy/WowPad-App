@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBarButtonTextConnect" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="AppBarButtonTextDelete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="AppBarButtonTextDisconnect" xml:space="preserve">
+    <value>切断</value>
+  </data>
+  <data name="AppBarButtonTextMouse" xml:space="preserve">
+    <value>マウス</value>
+  </data>
+  <data name="AppBarButtonTextPower" xml:space="preserve">
+    <value>PC電源オン(WOL)</value>
+  </data>
+  <data name="AppBarButtonTextSearchPC" xml:space="preserve">
+    <value>PC検索</value>
+  </data>
+  <data name="AppBarButtonTextSettings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="AppBarButtonTextTouchScreen" xml:space="preserve">
+    <value>タッチスクリーン</value>
+  </data>
+  <data name="AppBarMenuTextHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="AppBarMenuTextRateNReview" xml:space="preserve">
+    <value>評価とレビュー</value>
+  </data>
+  <data name="AppFullName" xml:space="preserve">
+    <value>Velostep WowPad{0}</value>
+  </data>
+  <data name="AppMessageAccessCodeIncorrect" xml:space="preserve">
+    <value>アクセスコードが正しくありません。
+再試行してください。</value>
+  </data>
+  <data name="AppMessageConfirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="AppMessageDisconnectedFromPC" xml:space="preserve">
+    <value>PC から接続が切断されました。
+PCを再検索しますか？</value>
+  </data>
+  <data name="AppMessageExit" xml:space="preserve">
+    <value>もう一度「戻る」ボタンを押すとWowPad{0}を終了します。</value>
+  </data>
+  <data name="AppMessageLoading" xml:space="preserve">
+    <value>ローディング中…</value>
+  </data>
+  <data name="AppMessageNotAbleConnectPC" xml:space="preserve">
+    <value>PCに接続することができません。
+PCを再検索してください。</value>
+  </data>
+  <data name="AppMessageNotification" xml:space="preserve">
+    <value>お知らせ</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>WowPad{0}</value>
+  </data>
+  <data name="HistoryListPageTitle" xml:space="preserve">
+    <value>接続履歴</value>
+  </data>
+  <data name="HistoryPageRemoveItem" xml:space="preserve">
+    <value>の接続履歴を削除牛ますか？</value>
+  </data>
+  <data name="HistoryPageWOLConfirm" xml:space="preserve">
+    <value>PC電源オン(WOL)機能を使用するには、
+PC の CMOS 設定で WOL を有効にする必要があります。
+設定方法は、PC メーカーにお問い合わせください。
+PC を有効にする要求しますか?</value>
+  </data>
+  <data name="HistoryPageWOLRequest" xml:space="preserve">
+    <value>PC電源オンされるように要求しました。
+PCを確認してください。</value>
+  </data>
+  <data name="MainPageConnected" xml:space="preserve">
+    <value>接続完了...</value>
+  </data>
+  <data name="MainPageDisconnected" xml:space="preserve">
+    <value>切断...</value>
+  </data>
+  <data name="MainPageMouseBackClick" xml:space="preserve">
+    <value>戻る（ウェブブラウザのみ）</value>
+  </data>
+  <data name="MainPageMouseForwardClick" xml:space="preserve">
+    <value>進む (ウェブブラウザのみ)</value>
+  </data>
+  <data name="MainPageMouseLeftClick" xml:space="preserve">
+    <value>左クリック</value>
+  </data>
+  <data name="MainPageMouseMovePointer" xml:space="preserve">
+    <value>マウスポインターの移動</value>
+  </data>
+  <data name="MainPageMouseRightClick" xml:space="preserve">
+    <value>右クリック</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="ServerConnectPageAccessCode" xml:space="preserve">
+    <value>アクセスコード</value>
+  </data>
+  <data name="ServerConnectPageConnecting" xml:space="preserve">
+    <value>接続中…</value>
+  </data>
+  <data name="ServerConnectPageConnectPC" xml:space="preserve">
+    <value>PC 接続</value>
+  </data>
+  <data name="ServerListPagePort" xml:space="preserve">
+    <value>検索するポート</value>
+  </data>
+  <data name="ServerListPageSearching" xml:space="preserve">
+    <value>検索中...</value>
+  </data>
+  <data name="ServerListPageSearchPC" xml:space="preserve">
+    <value>PC検索</value>
+  </data>
+  <data name="ServerListPageTitle" xml:space="preserve">
+    <value>PC検索</value>
+  </data>
+  <data name="SettingsPagePivotConnectionAutoConnect" xml:space="preserve">
+    <value>App起動時に自動接続を許可</value>
+  </data>
+  <data name="SettingsPagePivotConnectionDefaultPort" xml:space="preserve">
+    <value>デフォルトのポート (デフォルト: 9000, 許容範囲 : 1024 ~ 65535)</value>
+  </data>
+  <data name="SettingsPagePivotConnectionDeviceType" xml:space="preserve">
+    <value>接続時のデバイスモード</value>
+  </data>
+  <data name="SettingsPagePivotConnectionTitle" xml:space="preserve">
+    <value>接続情報</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQuality" xml:space="preserve">
+    <value>壁紙の品質</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQualityHigh" xml:space="preserve">
+    <value>最高</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQualityLow" xml:space="preserve">
+    <value>最低</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadBackgroundQualityMedium" xml:space="preserve">
+    <value>通常</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadNavigationButton" xml:space="preserve">
+    <value>ブラウザで前/後の移動ボタンを使用</value>
+  </data>
+  <data name="SettingsPagePivotTouchPadTitle" xml:space="preserve">
+    <value>タッチパッド</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>WowPad{0} 設定</value>
+  </data>
+  <data name="AppMessageRequiredWiFi" xml:space="preserve">
+    <value>WiFi設定が必要です。設定しますか?</value>
+  </data>
+  <data name="AppBarMenuTextEmail" xml:space="preserve">
+    <value>バグレポート</value>
+  </data>
+  <data name="AppMessageTrialBuyFullversion" xml:space="preserve">
+    <value>フルバージョン購入</value>
+  </data>
+  <data name="AppMessageTrialBuyInfo" xml:space="preserve">
+    <value>フルバージョンを購入すると、すべての機能を利用することができます。</value>
+  </data>
+  <data name="AppMessageTrialCannotuse" xml:space="preserve">
+    <value>体験版では使用できません。</value>
+  </data>
+  <data name="HelpPageTitle" xml:space="preserve">
+    <value>WowPad 使い方</value>
+  </data>
+  <data name="HelpPageLoadFail" xml:space="preserve">
+    <value>インターネットに接続されていないか、ヘルプのページを見つけることができません。</value>
+  </data>
+  <data name="AppMessageBuyMKVersion" xml:space="preserve">
+    <value>MKバージョン購入</value>
+  </data>
+  <data name="AppMessageBuyTKVersion" xml:space="preserve">
+    <value>TKバージョン購入</value>
+  </data>
+  <data name="AppMessageNotFoundHost" xml:space="preserve">
+    <value>ホストを見つけることができません。</value>
+  </data>
+  <data name="AppMessageRequiredDataNetwork" xml:space="preserve">
+    <value>モバイルデータ接続またはWiFiネットワークが必要です。WiFiの設定をしますか？</value>
+  </data>
+  <data name="AppMessageUnreachableHost" xml:space="preserve">
+    <value>ホストに接続することができません。</value>
+  </data>
+  <data name="ServerListPageHost" xml:space="preserve">
+    <value>ホスト名または IP アドレス</value>
+  </data>
+  <data name="HistoryPageWOLCannotRequest" xml:space="preserve">
+    <value>アクセスできないネットワークであるため、WOLを使用することができません。</value>
+  </data>
+  <data name="WOLPageRequestButton" xml:space="preserve">
+    <value>電源オン</value>
+  </data>
+  <data name="WOLPageSubnetMask" xml:space="preserve">
+    <value>{0}のサブネットマスク</value>
+  </data>
+  <data name="WOLPageTitle" xml:space="preserve">
+    <value>Wake on WAN</value>
+  </data>
+  <data name="AppMessageCellularChargeInfomation" xml:space="preserve">
+    <value>モバイルデータ接続を使用すると、データの通信料金が発生する場合があります。WiFi使用をお勧めします。</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsage" xml:space="preserve">
+    <value>データ使用量通知 (モバイルデータ通信時)</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel1" xml:space="preserve">
+    <value>50MBごとに</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel2" xml:space="preserve">
+    <value>100MBごとに</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel3" xml:space="preserve">
+    <value>250MBごとに</value>
+  </data>
+  <data name="SettingsPagePivotEtcDataUsageLevel4" xml:space="preserve">
+    <value>500MBごとに</value>
+  </data>
+  <data name="SettingsPagePivotEtcDefaultPage" xml:space="preserve">
+    <value>PC検索のデフォルトのページ</value>
+  </data>
+  <data name="SettingsPagePivotEtcTitle" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="AppMessageUsage" xml:space="preserve">
+    <value>モバイルデータを{0}使用しました。</value>
+  </data>
+  <data name="SettingsPagePivotEtcFullSizeKeyboard" xml:space="preserve">
+    <value>大きなキーボードを使用</value>
+  </data>
+  <data name="AdClickMessage" xml:space="preserve">
+    <value>広告をクリックすると広告が消えます。</value>
+  </data>
+  <data name="LoadingKeyboardSize" xml:space="preserve">
+    <value>キーボードの再構築中です。</value>
+  </data>
+  <data name="ServerListPageBack" xml:space="preserve">
+    <value>接続するPCを選択していません。メイン画面に戻りますか？</value>
+  </data>
+  <data name="GettingStartClose" xml:space="preserve">
+    <value>再び見ない</value>
+  </data>
+  <data name="GettingStartHide" xml:space="preserve">
+    <value>次の再表示</value>
+  </data>
+  <data name="GettingStartStep1Help" xml:space="preserve">
+    <value>ヘルプを開く</value>
+  </data>
+  <data name="GettingStartStep1Link" xml:space="preserve">
+    <value>サーバーアプリのダウンロードhttp://apps.velostep.com/wowpad</value>
+  </data>
+  <data name="GettingStartStep1Movie" xml:space="preserve">
+    <value>インストール方法は、ヘルプを参照してください。</value>
+  </data>
+  <data name="GettingStartStep1Server" xml:space="preserve">
+    <value>WowPadを使用するには、PCにWowPadサーバーをインストールしてください。</value>
+  </data>
+  <data name="GettingStartStep1Share" xml:space="preserve">
+    <value>リンクを共有</value>
+  </data>
+  <data name="GettingStartStep2Memu" xml:space="preserve">
+    <value>アプリ右下の[メニュー]ボタンをタップ、[pc検索]ボタンをタップ。</value>
+  </data>
+  <data name="GettingStartStep3Input" xml:space="preserve">
+    <value>検索ページで、PCのホスト名（IP）とポートを入力し、[PC検索]ボタンをタップ。</value>
+  </data>
+  <data name="GettingStartStep4Connect" xml:space="preserve">
+    <value>アクセスコードを入力し[接続]ボタンをタップすると、PCと接続完了。</value>
+  </data>
+  <data name="GettingStartStep4Select" xml:space="preserve">
+    <value>検出されたPCのリストでPCを選択。</value>
+  </data>
+  <data name="GettingStartTitle" xml:space="preserve">
+    <value>WowPadの開始</value>
+  </data>
+  <data name="AboutAbout" xml:space="preserve">
+    <value>アバウト</value>
+  </data>
+  <data name="AboutCredits" xml:space="preserve">
+    <value>ヘルパー</value>
+  </data>
+  <data name="AboutDesign" xml:space="preserve">
+    <value>デザイン</value>
+  </data>
+  <data name="AboutDesigner" xml:space="preserve">
+    <value>Ha Jeongryeong</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>Yook Jooyong</value>
+  </data>
+  <data name="AboutDevelopment" xml:space="preserve">
+    <value>開発</value>
+  </data>
+  <data name="AboutFacebook" xml:space="preserve">
+    <value>フェイスブック</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>サポートとフィードバック</value>
+  </data>
+  <data name="AboutLibraryCreators" xml:space="preserve">
+    <value>ライブラリ作成者</value>
+  </data>
+  <data name="AboutRateReview" xml:space="preserve">
+    <value>評価とレビュー</value>
+  </data>
+  <data name="AboutShare" xml:space="preserve">
+    <value>アプリの共有</value>
+  </data>
+  <data name="AboutSpecialPeople1" xml:space="preserve">
+    <value>Jung Bomi</value>
+  </data>
+  <data name="AboutSpecialThanks" xml:space="preserve">
+    <value>特別支援をいただいた方々</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="AboutVisitHomePage" xml:space="preserve">
+    <value>ホームページ訪問</value>
+  </data>
+  <data name="AboutWhatsNew" xml:space="preserve">
+    <value>更新履歴</value>
+  </data>
+  <data name="ApplicationAbout" xml:space="preserve">
+    <value>WowPadWowPad</value>
+  </data>
+  <data name="AboutUpdateHistory20001" xml:space="preserve">
+    <value>最初のリリース</value>
+  </data>
+  <data name="AboutUpdateHistory25001" xml:space="preserve">
+    <value>デバイス名Lumia925を追加</value>
+  </data>
+  <data name="AboutUpdateHistory25002" xml:space="preserve">
+    <value>IP/ host指定の接続（外部ネットワーク）機能を追加（WiFi/セルラーネットワーク）</value>
+  </data>
+  <data name="AboutUpdateHistory25003" xml:space="preserve">
+    <value>WOW（Wake On Wan）の追加</value>
+  </data>
+  <data name="AboutUpdateHistory25004" xml:space="preserve">
+    <value>デフォルトの検索ページの設定機能を追加</value>
+  </data>
+  <data name="AboutUpdateHistory25005" xml:space="preserve">
+    <value>モバイルデータ通信使用時のデータ量通知機能追加</value>
+  </data>
+  <data name="AboutUpdateHistory25006" xml:space="preserve">
+    <value>メニューアイコンを変更する</value>
+  </data>
+  <data name="AboutUpdateHistory25007" xml:space="preserve">
+    <value>アクセス履歴を使用した接続時の接続コードが同じであれば自動的に接続処理</value>
+  </data>
+  <data name="AboutUpdateHistory25008" xml:space="preserve">
+    <value>終了方法を変更=&gt;[戻る]ボタンの連続二度押し</value>
+  </data>
+  <data name="AboutUpdateHistory26501" xml:space="preserve">
+    <value>Windows Phone7サポート</value>
+  </data>
+  <data name="AboutUpdateHistory26502" xml:space="preserve">
+    <value>小さいキーボードサポート</value>
+  </data>
+  <data name="AboutUpdateHistory26503" xml:space="preserve">
+    <value>バグ修正</value>
+  </data>
+  <data name="AboutUpdateHistory26504" xml:space="preserve">
+    <value>ロゴ変更</value>
+  </data>
+  <data name="AboutUpdateHistory26505" xml:space="preserve">
+    <value>UIの改善</value>
+  </data>
+  <data name="AboutUpdateHistory27001" xml:space="preserve">
+    <value>MS PowerPoint 2007, 2010, 2013 サポート</value>
+  </data>
+  <data name="AboutUpdateHistory27501" xml:space="preserve">
+    <value>アバウトのページを追加</value>
+  </data>
+  <data name="AboutUpdateHistory27601" xml:space="preserve">
+    <value>PCに表示される接続の表示名の変更：メーカー型番 =&gt; ユーザーが書いた携帯電話の名前</value>
+  </data>
+</root>

@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15FCE39F-50F0-4179-99DA-F0358D9A3E4A}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WowCommon</RootNamespace>
+    <AssemblyName>WowCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;WP7</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;WP7</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdDuplex.WindowsPhone">
+      <HintPath>..\packages\AdDuplexWP7.2.7.0.3\lib\sl4-windowsphone71\AdDuplex.WindowsPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Advertising.Mobile, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Advertising.Mobile.UI, Version=6.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=7.0.1.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="WriteableBitmapExWinPhone">
+      <HintPath>..\packages\WriteableBitmapEx.1.0.7.0\lib\sl4-wp71\WriteableBitmapExWinPhone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\WowCommon\Apps\UI\ImageButton.xaml.cs">
+      <Link>Apps\UI\ImageButton.xaml.cs</Link>
+      <DependentUpon>ImageButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Interface\IKeyboardData.cs">
+      <Link>Apps\UI\Keyboard\Interface\IKeyboardData.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Interface\IKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Interface\IKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Keyboard.xaml.cs">
+      <Link>Apps\UI\Keyboard\Keyboard.xaml.cs</Link>
+      <DependentUpon>Keyboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Key\KeyCap.xaml.cs">
+      <Link>Apps\UI\Keyboard\Key\KeyCap.xaml.cs</Link>
+      <DependentUpon>KeyCap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Key\KeyCapEventArgs.cs">
+      <Link>Apps\UI\Keyboard\Key\KeyCapEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Key\KeyCapTypes.cs">
+      <Link>Apps\UI\Keyboard\Key\KeyCapTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\AbstractDoubleCapKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\AbstractDoubleCapKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\AbstractKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\AbstractKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\ChinessKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\ChinessKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Data\EnglishKeyboardLayout.Data.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Data\EnglishKeyboardLayout.Data.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Data\FunctionKeyboardLayout.Data.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Data\FunctionKeyboardLayout.Data.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Data\JapanessKeyboardLayout.Data.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Data\JapanessKeyboardLayout.Data.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Data\KoreanKeyboardLayout.Data.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Data\KoreanKeyboardLayout.Data.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Data\SymbolKeyboardLayout.Data.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Data\SymbolKeyboardLayout.Data.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\EnglishKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\EnglishKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Event\AbstractKeyboardLayout.Event.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Event\AbstractKeyboardLayout.Event.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\FunctionKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\FunctionKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\JapanessKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\JapanessKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\KoreanKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\KoreanKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\SymbolKeyboardLayout.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\SymbolKeyboardLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Notification\CellularDataEventArgs.cs">
+      <Link>Apps\UI\Notification\CellularDataEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Notification\MessageTip.xaml.cs">
+      <Link>Apps\UI\Notification\MessageTip.xaml.cs</Link>
+      <DependentUpon>MessageTip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\AppLoader.cs">
+      <Link>Apps\WowPad\AppLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Manager\ConnectionManager.cs">
+      <Link>Apps\WowPad\Manager\ConnectionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Manager\HistoryManager.cs">
+      <Link>Apps\WowPad\Manager\HistoryManager.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Manager\KeyboardControlManager.cs">
+      <Link>Apps\WowPad\Manager\KeyboardControlManager.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Manager\PointingControlManager.cs">
+      <Link>Apps\WowPad\Manager\PointingControlManager.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Manager\SettingManager.cs">
+      <Link>Apps\WowPad\Manager\SettingManager.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Manager\WowHandler.cs">
+      <Link>Apps\WowPad\Manager\WowHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\About.cs">
+      <Link>Apps\WowPad\Model\About.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\ConnectionInfo.cs">
+      <Link>Apps\WowPad\Model\ConnectionInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\DeviceInfo.cs">
+      <Link>Apps\WowPad\Model\DeviceInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\ImageInfo.cs">
+      <Link>Apps\WowPad\Model\ImageInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\KeyboardInfo.cs">
+      <Link>Apps\WowPad\Model\KeyboardInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\PacketInfo.cs">
+      <Link>Apps\WowPad\Model\PacketInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\PickerItem.cs">
+      <Link>Apps\WowPad\Model\PickerItem.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\ServerExtraInfo.cs">
+      <Link>Apps\WowPad\Model\ServerExtraInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\ServerInfo.cs">
+      <Link>Apps\WowPad\Model\ServerInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\SettingInfo.cs">
+      <Link>Apps\WowPad\Model\SettingInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\TouchInfo.cs">
+      <Link>Apps\WowPad\Model\TouchInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\UserToken.cs">
+      <Link>Apps\WowPad\Model\UserToken.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\Version.cs">
+      <Link>Apps\WowPad\Model\Version.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Model\VersionContent.cs">
+      <Link>Apps\WowPad\Model\VersionContent.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Resources\I18n.cs">
+      <Link>Apps\WowPad\Resources\I18n.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Resources\ResourceUri.cs">
+      <Link>Apps\WowPad\Resources\ResourceUri.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\DeviceTypes.cs">
+      <Link>Apps\WowPad\Type\DeviceTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\ImageQualityTypes.cs">
+      <Link>Apps\WowPad\Type\ImageQualityTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\KeyboardLayoutTypes.cs">
+      <Link>Apps\WowPad\Type\KeyboardLayoutTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\PacketTypes.cs">
+      <Link>Apps\WowPad\Type\PacketTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\RecoveryTypes.cs">
+      <Link>Apps\WowPad\Type\RecoveryTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\ScreenTypes.cs">
+      <Link>Apps\WowPad\Type\ScreenTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\TouchActionTypes.cs">
+      <Link>Apps\WowPad\Type\TouchActionTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Type\VersionTypes.cs">
+      <Link>Apps\WowPad\Type\VersionTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\AboutPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\AboutPage.xaml.cs</Link>
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\HelpPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\HelpPage.xaml.cs</Link>
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\MainPage.Event.cs">
+      <Link>Apps\WowPad\UI\Pages\MainPage.Event.cs</Link>
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\MainPage.Member.cs">
+      <Link>Apps\WowPad\UI\Pages\MainPage.Member.cs</Link>
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\MainPage.Util.cs">
+      <Link>Apps\WowPad\UI\Pages\MainPage.Util.cs</Link>
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\MainPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\MainPage.xaml.cs</Link>
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\ServerConnectPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\ServerConnectPage.xaml.cs</Link>
+      <DependentUpon>ServerConnectPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\ServerListPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\ServerListPage.xaml.cs</Link>
+      <DependentUpon>ServerListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\SettingsPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\SettingsPage.xaml.cs</Link>
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\UI\Pages\WolSdbPage.xaml.cs">
+      <Link>Apps\WowPad\UI\Pages\WolSdbPage.xaml.cs</Link>
+      <DependentUpon>WolSdbPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Util\AppNameConverter.cs">
+      <Link>Apps\WowPad\Util\AppNameConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Util\CellularDataUtils.cs">
+      <Link>Apps\WowPad\Util\CellularDataUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Util\NetworkUtils.cs">
+      <Link>Apps\WowPad\Util\NetworkUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Util\PacketUtils.cs">
+      <Link>Apps\WowPad\Util\PacketUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Util\UIUtils.cs">
+      <Link>Apps\WowPad\Util\UIUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\Util\VersionUtils.cs">
+      <Link>Apps\WowPad\Util\VersionUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\\Resources\Constant.cs">
+      <Link>Apps\WowPad\\Resources\Constant.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\\Socket\TcpSocket.cs">
+      <Link>Apps\WowPad\\Socket\TcpSocket.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\\Socket\UdpSocket.cs">
+      <Link>Apps\WowPad\\Socket\UdpSocket.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\\Type\ButtonTypes.cs">
+      <Link>Apps\WowPad\\Type\ButtonTypes.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\WowPad\\Util\AppStateUtils.cs">
+      <Link>Apps\WowPad\\Util\AppStateUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\WowCommon\Apps\UI\Keyboard\Layout\Language\Data\ChinessKeyboardLayout.Data.cs">
+      <Link>Apps\UI\Keyboard\Layout\Language\Data\ChinessKeyboardLayout.Data.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\WowCommon\Apps\UI\ImageButton.xaml">
+      <Link>Apps\UI\ImageButton.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\UI\Keyboard\Keyboard.xaml">
+      <Link>Apps\UI\Keyboard\Keyboard.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\UI\Keyboard\Key\KeyCap.xaml">
+      <Link>Apps\UI\Keyboard\Key\KeyCap.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\UI\Notification\MessageTip.xaml">
+      <Link>Apps\UI\Notification\MessageTip.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\AboutPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\AboutPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\HelpPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\HelpPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\MainPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\MainPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\ServerConnectPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\ServerConnectPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\ServerListPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\ServerListPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\SettingsPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\SettingsPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\WowCommon\Apps\WowPad\UI\Pages\WolSdbPage.xaml">
+      <Link>Apps\WowPad\UI\Pages\WolSdbPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README_FIRST.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
